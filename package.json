@@ -10,5 +10,26 @@
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1"
   },
-  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387",
+  "name": "require-esm-tests",
+  "version": "0.0.1",
+  "description": "a collection of tests for require(esm) behavior in various edge cases",
+  "main": "tests/index.cjs",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easrng/require-esm-tests.git"
+  },
+  "author": "easrng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/easrng/require-esm-tests/issues"
+  },
+  "homepage": "https://github.com/easrng/require-esm-tests#readme"
 }
