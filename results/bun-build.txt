@@ -1,0 +1,179 @@
+{
+  './basic.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      basic: {
+        get: [Function: get],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      basic: {
+        get: [Function: basic],
+        set: [Function: set],
+        enumerable: true,
+        configurable: true
+      }
+    }
+  },
+  './defaultEsModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      default: {
+        get: [Function: get],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      default: {
+        get: [Function: default],
+        set: [Function: set],
+        enumerable: true,
+        configurable: true
+      },
+      __esModule: {
+        get: [Function: __esModule],
+        set: [Function: set],
+        enumerable: true,
+        configurable: true
+      }
+    }
+  },
+  './esModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        get: [Function: __esModule],
+        set: [Function: set],
+        enumerable: true,
+        configurable: true
+      }
+    }
+  },
+  './falseEsModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        get: [Function: __esModule],
+        set: [Function: set],
+        enumerable: true,
+        configurable: true
+      }
+    }
+  },
+  './undefinedEsModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        get: [Function: __esModule],
+        set: [Function: set],
+        enumerable: true,
+        configurable: true
+      }
+    }
+  },
+  './module.exports.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      'module.exports': {
+        get: [Function: get],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      'module.exports': {
+        get: [Function: module.exports],
+        set: [Function: set],
+        enumerable: true,
+        configurable: true
+      }
+    }
+  },
+  './soloDefault.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      default: {
+        get: [Function: get],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      default: {
+        get: [Function: default],
+        set: [Function: set],
+        enumerable: true,
+        configurable: true
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  './basic.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: undefined,
+    esmDescriptors: {
+      basic: {
+        get: [Function: basic],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    }
+  },
+  './defaultEsModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: undefined,
+    esmDescriptors: {
+      __esModule: {
+        get: [Function: __esModule],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      },
+      default: {
+        get: [Function: default],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    }
+  },
+  './esModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: undefined,
+    esmDescriptors: {
+      __esModule: {
+        get: [Function: __esModule],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    }
+  },
+  './falseEsModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: undefined,
+    esmDescriptors: {
+      __esModule: {
+        get: [Function: __esModule],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    }
+  },
+  './undefinedEsModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: undefined,
+    esmDescriptors: {
+      __esModule: {
+        get: [Function: __esModule],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    }
+  },
+  './module.exports.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: undefined,
+    esmDescriptors: {
+      'module.exports': {
+        get: [Function: module.exports],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    }
+  },
+  './soloDefault.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: undefined,
+    esmDescriptors: {
+      default: {
+        get: [Function: default],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      }
+    }
+  }
+}

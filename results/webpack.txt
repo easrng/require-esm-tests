@@ -1,0 +1,281 @@
+{
+  './basic.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: true,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      basic: {
+        get: [Function: basic],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      basic: {
+        get: [Function: basic],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    }
+  },
+  './defaultEsModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: true,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      default: {
+        get: [Function: default],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      default: {
+        get: [Function: default],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    }
+  },
+  './esModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: true,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    }
+  },
+  './falseEsModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: true,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    }
+  },
+  './undefinedEsModule.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: true,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    }
+  },
+  './module.exports.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: true,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      'module.exports': {
+        get: [Function: module.exports],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      'module.exports': {
+        get: [Function: module.exports],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    }
+  },
+  './soloDefault.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: true,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      default: {
+        get: [Function: default],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      default: {
+        get: [Function: default],
+        set: undefined,
+        enumerable: true,
+        configurable: false
+      },
+      [Symbol(Symbol.toStringTag)]: {
+        value: 'Module',
+        writable: false,
+        enumerable: false,
+        configurable: false
+      }
+    }
+  }
+}
