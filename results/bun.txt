@@ -139,5 +139,38 @@
         configurable: false
       }
     }
+  },
+  './default.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: true,
+    cjsDescriptors: {
+      default: {
+        value: [Function: soloDefault],
+        writable: true,
+        enumerable: true,
+        configurable: false
+      },
+      named: {
+        value: '',
+        writable: true,
+        enumerable: true,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      default: {
+        value: [Function: soloDefault],
+        writable: true,
+        enumerable: true,
+        configurable: false
+      },
+      named: {
+        value: '',
+        writable: true,
+        enumerable: true,
+        configurable: false
+      }
+    }
   }
 }

@@ -96,7 +96,27 @@
     cjsDescriptors: undefined,
     esmDescriptors: {
       default: {
+        value: [Function: soloDefault$1],
+        writable: false,
+        enumerable: true,
+        configurable: false
+      }
+    }
+  },
+  './default.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: false,
+    cjsDescriptors: undefined,
+    esmDescriptors: {
+      default: {
         value: [Function: soloDefault],
+        writable: false,
+        enumerable: true,
+        configurable: false
+      },
+      named: {
+        value: '',
         writable: false,
         enumerable: true,
         configurable: false

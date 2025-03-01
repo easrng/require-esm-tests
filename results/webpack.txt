@@ -193,5 +193,50 @@
         configurable: false
       }
     }
+  },
+  './default.mjs': {
+    esmNamespaceStable: true,
+    cjsExportsStable: true,
+    cjsExportIsEsmNamespace: true,
+    cjsDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      default: {
+        value: [Function: soloDefault],
+        writable: false,
+        enumerable: true,
+        configurable: false
+      },
+      named: {
+        value: '',
+        writable: false,
+        enumerable: true,
+        configurable: false
+      }
+    },
+    esmDescriptors: {
+      __esModule: {
+        value: true,
+        writable: false,
+        enumerable: false,
+        configurable: false
+      },
+      default: {
+        value: [Function: soloDefault],
+        writable: false,
+        enumerable: true,
+        configurable: false
+      },
+      named: {
+        value: '',
+        writable: false,
+        enumerable: true,
+        configurable: false
+      }
+    }
   }
 }

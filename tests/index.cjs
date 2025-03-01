@@ -71,5 +71,10 @@ const inspect = require("object-inspect");
     () => require("./soloDefault.mjs"),
     () => import("./soloDefault.mjs"),
   );
+  await check(
+    "./default.mjs",
+    () => require("./default.mjs"),
+    () => import("./default.mjs"),
+  );
   console.log(inspect(results, { indent: 2 }));
 })();
