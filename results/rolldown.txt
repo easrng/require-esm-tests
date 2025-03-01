@@ -6,8 +6,8 @@
     cjsDescriptors: undefined,
     esmDescriptors: {
       basic: {
-        get: [Function: basic],
-        set: undefined,
+        value: [Function: basic],
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -20,14 +20,14 @@
     cjsDescriptors: undefined,
     esmDescriptors: {
       __esModule: {
-        get: [Function: __esModule],
-        set: undefined,
+        value: false,
+        writable: false,
         enumerable: true,
         configurable: false
       },
       default: {
-        get: [Function: default],
-        set: undefined,
+        value: [Function: defaultEsModule],
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -40,8 +40,8 @@
     cjsDescriptors: undefined,
     esmDescriptors: {
       __esModule: {
-        get: [Function: __esModule],
-        set: undefined,
+        value: 'something',
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -54,8 +54,8 @@
     cjsDescriptors: undefined,
     esmDescriptors: {
       __esModule: {
-        get: [Function: __esModule],
-        set: undefined,
+        value: false,
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -68,8 +68,8 @@
     cjsDescriptors: undefined,
     esmDescriptors: {
       __esModule: {
-        get: [Function: __esModule],
-        set: undefined,
+        value: undefined,
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -82,8 +82,8 @@
     cjsDescriptors: undefined,
     esmDescriptors: {
       'module.exports': {
-        get: [Function: module.exports],
-        set: undefined,
+        value: [Function: moduleExports],
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -96,8 +96,8 @@
     cjsDescriptors: undefined,
     esmDescriptors: {
       default: {
-        get: [Function: default],
-        set: undefined,
+        value: [Function: soloDefault],
+        writable: false,
         enumerable: true,
         configurable: false
       }

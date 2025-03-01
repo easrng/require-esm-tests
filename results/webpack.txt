@@ -11,15 +11,9 @@
         configurable: false
       },
       basic: {
-        get: [Function: basic],
-        set: undefined,
-        enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
+        value: [Function: basic],
         writable: false,
-        enumerable: false,
+        enumerable: true,
         configurable: false
       }
     },
@@ -31,15 +25,9 @@
         configurable: false
       },
       basic: {
-        get: [Function: basic],
-        set: undefined,
-        enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
+        value: [Function: basic],
         writable: false,
-        enumerable: false,
+        enumerable: true,
         configurable: false
       }
     }
@@ -56,15 +44,9 @@
         configurable: false
       },
       default: {
-        get: [Function: default],
-        set: undefined,
-        enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
+        value: [Function: defaultEsModule],
         writable: false,
-        enumerable: false,
+        enumerable: true,
         configurable: false
       }
     },
@@ -76,15 +58,9 @@
         configurable: false
       },
       default: {
-        get: [Function: default],
-        set: undefined,
-        enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
+        value: [Function: defaultEsModule],
         writable: false,
-        enumerable: false,
+        enumerable: true,
         configurable: false
       }
     }
@@ -99,23 +75,11 @@
         writable: false,
         enumerable: false,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     },
     esmDescriptors: {
       __esModule: {
         value: true,
-        writable: false,
-        enumerable: false,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
         writable: false,
         enumerable: false,
         configurable: false
@@ -132,23 +96,11 @@
         writable: false,
         enumerable: false,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     },
     esmDescriptors: {
       __esModule: {
         value: true,
-        writable: false,
-        enumerable: false,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
         writable: false,
         enumerable: false,
         configurable: false
@@ -165,23 +117,11 @@
         writable: false,
         enumerable: false,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     },
     esmDescriptors: {
       __esModule: {
         value: true,
-        writable: false,
-        enumerable: false,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
         writable: false,
         enumerable: false,
         configurable: false
@@ -200,15 +140,9 @@
         configurable: false
       },
       'module.exports': {
-        get: [Function: module.exports],
-        set: undefined,
-        enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
+        value: [Function: moduleExports],
         writable: false,
-        enumerable: false,
+        enumerable: true,
         configurable: false
       }
     },
@@ -220,15 +154,9 @@
         configurable: false
       },
       'module.exports': {
-        get: [Function: module.exports],
-        set: undefined,
-        enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
+        value: [Function: moduleExports],
         writable: false,
-        enumerable: false,
+        enumerable: true,
         configurable: false
       }
     }
@@ -245,15 +173,9 @@
         configurable: false
       },
       default: {
-        get: [Function: default],
-        set: undefined,
-        enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
+        value: [Function: soloDefault],
         writable: false,
-        enumerable: false,
+        enumerable: true,
         configurable: false
       }
     },
@@ -265,15 +187,9 @@
         configurable: false
       },
       default: {
-        get: [Function: default],
-        set: undefined,
-        enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
+        value: [Function: soloDefault],
         writable: false,
-        enumerable: false,
+        enumerable: true,
         configurable: false
       }
     }

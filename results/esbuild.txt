@@ -11,16 +11,16 @@
         configurable: false
       },
       basic: {
-        get: [Function: get],
-        set: undefined,
+        value: [Function: basic],
+        writable: false,
         enumerable: true,
         configurable: false
       }
     },
     esmDescriptors: {
       basic: {
-        get: [Function: basic],
-        set: undefined,
+        value: [Function: basic],
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -38,22 +38,22 @@
         configurable: false
       },
       default: {
-        get: [Function: get],
-        set: undefined,
+        value: [Function: defaultEsModule],
+        writable: false,
         enumerable: true,
         configurable: false
       }
     },
     esmDescriptors: {
       __esModule: {
-        get: [Function: __esModule],
-        set: undefined,
+        value: false,
+        writable: false,
         enumerable: true,
         configurable: false
       },
       default: {
-        get: [Function: default],
-        set: undefined,
+        value: [Function: defaultEsModule],
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -73,8 +73,8 @@
     },
     esmDescriptors: {
       __esModule: {
-        get: [Function: __esModule],
-        set: undefined,
+        value: 'something',
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -94,8 +94,8 @@
     },
     esmDescriptors: {
       __esModule: {
-        get: [Function: __esModule],
-        set: undefined,
+        value: false,
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -115,8 +115,8 @@
     },
     esmDescriptors: {
       __esModule: {
-        get: [Function: __esModule],
-        set: undefined,
+        value: undefined,
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -134,16 +134,16 @@
         configurable: false
       },
       'module.exports': {
-        get: [Function: get],
-        set: undefined,
+        value: [Function: moduleExports],
+        writable: false,
         enumerable: true,
         configurable: false
       }
     },
     esmDescriptors: {
       'module.exports': {
-        get: [Function: module.exports],
-        set: undefined,
+        value: [Function: moduleExports],
+        writable: false,
         enumerable: true,
         configurable: false
       }
@@ -161,16 +161,16 @@
         configurable: false
       },
       default: {
-        get: [Function: get],
-        set: undefined,
+        value: [Function: soloDefault],
+        writable: false,
         enumerable: true,
         configurable: false
       }
     },
     esmDescriptors: {
       default: {
-        get: [Function: default],
-        set: undefined,
+        value: [Function: soloDefault],
+        writable: false,
         enumerable: true,
         configurable: false
       }

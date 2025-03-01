@@ -1,6 +1,22 @@
 const inspect = require("object-inspect");
 (async () => {
   const results = {};
+  function descs(o) {
+    const r = {};
+    for (const k of Reflect.ownKeys(o)) {
+      if (k === Symbol.toStringTag && o[Symbol.toStringTag] === "Module") {
+        continue;
+      }
+      const d = Reflect.getOwnPropertyDescriptor(o, k);
+      r[k] = {
+        value: o[k],
+        writable: "value" in d ? d.writable : !!d.set,
+        enumerable: d.enumerable,
+        configurable: d.configurable,
+      };
+    }
+    return r;
+  }
   async function check(name, cjs, esm) {
     let cjs1, cjs2, esm1, esm2;
     try {
@@ -16,12 +32,8 @@ const inspect = require("object-inspect");
       esmNamespaceStable: esm1 === esm2,
       cjsExportsStable: cjs1 === cjs2,
       cjsExportIsEsmNamespace: cjs1 === esm1,
-      cjsDescriptors: cjs1 == null
-        ? cjs1
-        : Object.getOwnPropertyDescriptors(cjs1),
-      esmDescriptors: esm1 == null
-        ? esm1
-        : Object.getOwnPropertyDescriptors(esm1),
+      cjsDescriptors: cjs1 == null ? cjs1 : descs(cjs1),
+      esmDescriptors: esm1 == null ? esm1 : descs(esm1),
     };
   }
   await check(

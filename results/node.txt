@@ -9,12 +9,6 @@
         writable: true,
         enumerable: true,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     },
     esmDescriptors: {
@@ -22,12 +16,6 @@
         value: [Function: basic],
         writable: true,
         enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
         configurable: false
       }
     }
@@ -48,12 +36,6 @@
         writable: true,
         enumerable: true,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     },
     esmDescriptors: {
@@ -68,12 +50,6 @@
         writable: true,
         enumerable: true,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     }
   },
@@ -87,12 +63,6 @@
         writable: true,
         enumerable: true,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     },
     esmDescriptors: {
@@ -100,12 +70,6 @@
         value: 'something',
         writable: true,
         enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
         configurable: false
       }
     }
@@ -120,12 +84,6 @@
         writable: true,
         enumerable: true,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     },
     esmDescriptors: {
@@ -133,12 +91,6 @@
         value: false,
         writable: true,
         enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
         configurable: false
       }
     }
@@ -153,12 +105,6 @@
         writable: true,
         enumerable: true,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     },
     esmDescriptors: {
@@ -166,12 +112,6 @@
         value: undefined,
         writable: true,
         enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
         configurable: false
       }
     }
@@ -206,12 +146,6 @@
         writable: true,
         enumerable: true,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     }
   },
@@ -231,12 +165,6 @@
         writable: true,
         enumerable: true,
         configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
-        configurable: false
       }
     },
     esmDescriptors: {
@@ -244,12 +172,6 @@
         value: [Function: soloDefault],
         writable: true,
         enumerable: true,
-        configurable: false
-      },
-      [Symbol(Symbol.toStringTag)]: {
-        value: 'Module',
-        writable: false,
-        enumerable: false,
         configurable: false
       }
     }
