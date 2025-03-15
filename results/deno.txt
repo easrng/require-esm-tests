@@ -119,12 +119,24 @@
   './module.exports.mjs': {
     esmNamespaceStable: true,
     cjsExportsStable: true,
-    cjsExportIsEsmNamespace: true,
+    cjsExportIsEsmNamespace: false,
     cjsDescriptors: {
-      'module.exports': {
-        value: [Function: moduleExports],
+      length: {
+        value: 0,
+        writable: false,
+        enumerable: false,
+        configurable: true
+      },
+      name: {
+        value: 'moduleExports',
+        writable: false,
+        enumerable: false,
+        configurable: true
+      },
+      prototype: {
+        value: {},
         writable: true,
-        enumerable: true,
+        enumerable: false,
         configurable: false
       }
     },
